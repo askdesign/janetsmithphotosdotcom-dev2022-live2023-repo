@@ -160,7 +160,9 @@ input[type="search"] {
 
 body {
 	background-color: #faf7f4;
+	background-color: #fff;
 	color: #554948;
+	color: #000;
 	font-family: Avenir, sans-serif;
 	font-size: 18px;
 	font-weight: 400;
@@ -339,6 +341,7 @@ h6 {
 	font-weight: 400;
 	line-height: 1.2;
 	margin: 0 0 30px;
+	color: #9a6047;
 }
 
 h1 {
@@ -1549,7 +1552,7 @@ figcaption,
 
 .genesis-nav-menu {
 	clear: both;
-	line-height: 1;
+	line-height: 1.2;
 	width: 100%;
 }
 
@@ -1658,7 +1661,7 @@ figcaption,
 
 .nav-primary .genesis-nav-menu .sub-menu a:focus,
 .nav-primary .genesis-nav-menu .sub-menu a:hover {
-	background-color: #ce3a0d;
+	background-color: #6a8ee2;
 	color: #fff;
 }
 
@@ -2372,6 +2375,7 @@ p.entry-meta {
 .before-footer-cta p,
 .before-footer-cta .widget-title {
 	color: #fff;
+	display: none;
 }
 
 .before-footer-cta a {
@@ -2427,7 +2431,7 @@ p.entry-meta {
 ---------------------------------------------------------------------------- */
 
 .site-footer {
-	background-color: #211b1a;
+	background-color: #666;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	bottom: 0;
@@ -2475,16 +2479,18 @@ p.entry-meta {
 }
 
 .site-footer .footer-copyright-container {
-	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
-	color: #fff;
-	float: left;
-	margin-bottom: 20px;
-	max-width: 60%;
-	padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    color: #fff;
+    float: none;
+    margin-bottom: 20px;
+    max-width: 1200px;
+    padding: 20px 0;
+    text-align: center;
 }
 
 .site-footer .footer-copyright {
 	float: left;
+	display: none;
 }
 
 .site-footer .copyright {
@@ -2505,12 +2511,14 @@ p.entry-meta {
 	height: 80px;
 	margin: 0 20px 10px 0;
 	width: auto;
+	display: none;
 }
 
 .site-footer .footer-widgets {
 	color: #fff;
 	float: right;
 	max-width: 360px;
+	display: none;
 }
 
 .site-footer .widget {
