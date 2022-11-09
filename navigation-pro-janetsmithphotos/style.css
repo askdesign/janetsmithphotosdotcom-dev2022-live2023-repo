@@ -761,7 +761,7 @@ th {
     box-shadow: none;
     clear: both;
     min-height: 65vh;
-    padding-top: 20px;
+    padding-top: 0;
     position: relative;
     word-wrap: break-word;
     z-index: 100;
@@ -1535,6 +1535,7 @@ figcaption,
     font-size: 1.25em;
     padding-left: 30px;
     padding-right: 30px;
+	margin-bottom: 20px;
 }
 
 .site-header .custom-logo-link {
