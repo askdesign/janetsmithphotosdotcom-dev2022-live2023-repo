@@ -1588,12 +1588,25 @@ figcaption,
 	padding: 10px 30px;
 }
 
+/*--- same as 
+ * .genesis-nav-menu > .menu-item.current-menu-item > a ---*/
+.genesis-nav-menu > .menu-item.current-menu-parent > a {
+    border-top: 4px solid #fff;
+    border-top: 4px solid #ce4c2a;
+}
+
 .genesis-nav-menu a:focus,
 .genesis-nav-menu a:hover,
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .toggle-header-search:focus,
 .genesis-nav-menu .toggle-header-search:hover {
 	color: #554948;
+}
+
+.genesis-nav-menu .sub-menu .current-menu-item > a {
+    color: #554948;
+    color: #fff;
+    background-color: #ce4c2a;
 }
 
 .genesis-nav-menu > .menu-bold > a {
