@@ -342,16 +342,16 @@ h6 {
 	line-height: 1.2;
 	margin: 0 0 .625em;
 	color: #9a6047;
-	color: #404c66;
+	color: #516eb2;
 }
 
 h1 {
-	font-size: 48px;
+	font-size: 40px;
 	letter-spacing: -0.5px;
 }
 
 h2 {
-	font-size: 44px;
+	font-size: 36px;
 	letter-spacing: -0.5px;
 	line-height: 1;
 }
@@ -1092,6 +1092,7 @@ th {
 
 .entry-title {
 	font-size: 48px;
+	font-size: 40px;
 	font-weight: 400;
 }
 
@@ -1506,7 +1507,7 @@ figcaption,
 	background-color: #fff;
 	border-width: 0;
 	color: #000;
-    color: #404c66;
+    color: #516eb2;
 	display: block;
 	min-height: 80px;
 	opacity: 1;
@@ -1529,7 +1530,7 @@ figcaption,
 	border-width: 0;
 	/* clip: rect(0, 0, 0, 0); */
 	color: #000;
-    color: #404c66;
+    color: #516eb2;
 	/* height: 72px; */
 	overflow: hidden;
 	/* position: absolute !important; */
