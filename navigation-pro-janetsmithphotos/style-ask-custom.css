@@ -1,0 +1,16 @@
+/*
+Description: Additional CSS in Customizer for JanetSmithphotos.com
+Author: Anne S. Katzeff
+Author URI: https://www.askdesign.biz/
+*/
+
+/* --- Ninja Forms --- */
+.nf-form-content button, .nf-form-content input[type=button], .nf-form-content input[type=submit] {
+    background-color: #6a8ee2 !important;
+	background-color: #ce4c2a !important;
+}
+
+/* --- Modula --- */
+.modula-fancybox-caption__text {
+    font-size: 17px;
+}
