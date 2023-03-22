@@ -14,3 +14,19 @@ Author URI: https://www.askdesign.biz/
 .modula-fancybox-caption__text {
     font-size: 17px;
 }
+
+/* -- override front-end.css -- */
+.wp-block-image {
+    line-height: 0.6;
+    margin-bottom: 1.2em;
+}
+
+/* -- media queries -- */
+@media only screen and (max-width: 800px) {
+	.wp-block-image .alignright,
+	.wp-block-image .alignleft {
+	    float: none;
+	    margin: 0.5em auto 0.5em;
+	}
+
+}

@@ -1196,6 +1196,7 @@ figcaption,
 	padding-left: 10px;
 	padding-right: 10px;
 	text-align: center;
+	line-height: 1.2;
 }
 
 .entry-content p.wp-caption-text {
@@ -2849,6 +2850,14 @@ p.entry-meta {
 	.genesis-responsive-menu .toggle-header-search {
 		display: none;
 	}
+	
+	.site-footer .footer-copyright-container {
+    	padding: 0 3em 1em;
+	}
+	
+	.site-footer a, .site-footer p {
+    	line-height: 1.875;
+	}
 
 }
 
@@ -2936,6 +2945,7 @@ p.entry-meta {
 		float: none;
 		margin: 10px auto;
 	}
+	
 
 }
 
@@ -2962,7 +2972,7 @@ p.entry-meta {
 	.content .entry::before {
 		display: none;
 	}
-
+	
 }
 
 @media only screen and (max-width: 480px) {
