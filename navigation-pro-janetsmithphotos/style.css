@@ -2861,6 +2861,11 @@ p.entry-meta {
 
 }
 
+@media only screen and (max-width: 960px) {
+
+}
+
+
 @media only screen and (max-width: 800px) {
 
 	.before-footer-cta,
@@ -2949,6 +2954,7 @@ p.entry-meta {
 
 }
 
+
 @media only screen and (max-width: 600px) {
 
 	.admin-bar .site-header {
@@ -2983,8 +2989,9 @@ p.entry-meta {
 
 	.title-area,
 	.wp-custom-logo .title-area {
-		max-width: 220px;
+		/* max-width: 220px; */
 	}
+
 
 	.menu-toggle {
 		padding: 29px 17px;
@@ -2996,7 +3003,7 @@ p.entry-meta {
 
 	.full-width-content.landing-page .site-inner,
 	.site-inner {
-		padding-top: 80px;
+		/* padding-top: 80px; */
 	}
 
 	.content-sidebar-wrap,
@@ -3039,4 +3046,18 @@ p.entry-meta {
 		margin-right: -2em;
 	}
 
+}
+
+
+@media only screen and (max-width: 375px) {
+
+	.site-title {
+		font-size: 2.25em;
+	}
+
+	.site-description, .wp-custom-logo .site-title {
+		font-size: 1.25em;
+		line-height: 1.2;
+	}
+	
 }
