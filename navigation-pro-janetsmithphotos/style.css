@@ -173,9 +173,9 @@ input[type="search"] {
 		 url('../fonts/aleo-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
 		 url('../fonts/aleo-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
 		 url('../fonts/aleo-v11-latin-regular.svg#Aleo') format('svg'); /* Legacy iOS */
-  }
-  /* aleo-italic - latin */
-  @font-face {
+}
+/* aleo-italic - latin */
+@font-face {
 	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
 	font-family: 'Aleo';
 	font-style: italic;
@@ -186,9 +186,9 @@ input[type="search"] {
 		 url('../fonts/aleo-v11-latin-italic.woff') format('woff'), /* Modern Browsers */
 		 url('../fonts/aleo-v11-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
 		 url('../fonts/aleo-v11-latin-italic.svg#Aleo') format('svg'); /* Legacy iOS */
-  }
-  /* aleo-700 - latin */
-  @font-face {
+}
+/* aleo-700 - latin */
+@font-face {
 	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
 	font-family: 'Aleo';
 	font-style: normal;
@@ -199,9 +199,9 @@ input[type="search"] {
 		 url('../fonts/aleo-v11-latin-700.woff') format('woff'), /* Modern Browsers */
 		 url('../fonts/aleo-v11-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
 		 url('../fonts/aleo-v11-latin-700.svg#Aleo') format('svg'); /* Legacy iOS */
-  }
-  /* aleo-700italic - latin */
-  @font-face {
+}
+/* aleo-700italic - latin */
+@font-face {
 	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
 	font-family: 'Aleo';
 	font-style: italic;
@@ -212,10 +212,10 @@ input[type="search"] {
 		 url('../fonts/aleo-v11-latin-700italic.woff') format('woff'), /* Modern Browsers */
 		 url('../fonts/aleo-v11-latin-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
 		 url('../fonts/aleo-v11-latin-700italic.svg#Aleo') format('svg'); /* Legacy iOS */
-  }
+}
 
-  /* -- for testing -- */
-  /* neuton-regular - latin */
+/* -- for testing -- */
+/* neuton-regular - latin */
 @font-face {
 	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
 	font-family: 'Neuton';
@@ -227,7 +227,7 @@ input[type="search"] {
 		 url('../fonts/neuton-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
 		 url('../fonts/neuton-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
 		 url('../fonts/neuton-v18-latin-regular.svg#Neuton') format('svg'); /* Legacy iOS */
-  }
+}
 
 .font-test {
 	color: #6f0ba1;
@@ -238,7 +238,7 @@ input[type="search"] {
 	line-height: 1.2;
 }
 
-  /* -- end of self-hosted fonts -- */
+/* -- end of self-hosted fonts -- */
 
 body {
 	background-color: #faf7f4;
