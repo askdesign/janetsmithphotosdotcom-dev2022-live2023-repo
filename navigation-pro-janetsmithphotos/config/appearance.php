@@ -49,7 +49,7 @@ $navigation_color_brightness = [
 ];
 
 return [
-	'fonts-url'            => '//fonts.googleapis.com/css?family=Aleo:400,400i,700,700i|Montserrat:400,400i,700,700i&display=swap',
+	'fonts-url'            => '//fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&display=swap',
 	'icons-url'            => get_stylesheet_directory_uri() . '/lib/css/ionicons.min.css',
 	'content-width'        => 1200,
 	'button-bg'            => $navigation_accent_color,
