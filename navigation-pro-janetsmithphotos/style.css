@@ -2588,13 +2588,12 @@ p.entry-meta {
 	text-decoration: none;
 }
 
-.site-footer a,
-.site-footer a:hover,
-.site-footer a:focus {
-	color: #afc2ee;
-	color: #ca8b7a;
+.site-footer a, .site-footer a:hover, .site-footer a:focus {
+    color: #afc2ee;
+    color: #ca8b7a;
+    color: #f6cece;
+    border-bottom-color: #f6cece;
 }
-
 
 .site-footer p {
 	margin-bottom: 0;
